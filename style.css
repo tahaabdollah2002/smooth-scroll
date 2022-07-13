@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.box1{
+    height: 100vh;
+    background-color: #615cbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 a, .box2 a{
+    text-decoration: none;
+    border-bottom: 1px solid #2ffed8;
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #2ffed8;
+}
+.box2{
+    height: 100vh;
+    background-color: #1c2f4b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box2 img{
+    width: 30%;
+}
